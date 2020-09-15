@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  margin: 50px auto;
+  width: 500px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.app form {
+  width: 100%;
+}
+.app form input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.app form input::placeholder {
+  color: deeppink;
+}
+.app form button {
+  width: 100%;
+  cursor: pointer;
+  background-color: yellowgreen;
+  font-size: 18px;
+  font-family: sans-serif;
+  height: 30px;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+}
+.app form button:hover {
+  background-color: rgb(114, 153, 37);
+}
+.todo-box {
+  width: 100%;
+  padding: 10px;
+  border-bottom: 2px solid deeppink;
+  margin-bottom: 10px;
+  display: flex;
+}
+.todos-wrapper {
+  background-color: rgba(255, 255, 0, 0.733);
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.completed {
+  margin-left: auto;
+  background-color: yellowgreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+}
+.delete {
+  margin-left: 10px;
+  font-size: 40px;
+  color: red;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.delete:focus,
+.completed:focus {
+  border: none;
+  outline: none;
+}
+
+.todo-box span {
+  font-family: sans-serif;
+  text-decoration-color: deeppink;
+}
